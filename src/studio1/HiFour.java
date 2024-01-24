@@ -8,16 +8,17 @@ import java.util.Scanner;
  */
 public class HiFour {
 	public static void main(String[] args) {
-		Scanner in = new Scanner(System.in);
-		System.out.print("Enter value for arg 0: ");
-		String s0 = in.nextLine();
-		System.out.print("Enter value for arg 1: ");
-		String s1 = in.nextLine();
-		System.out.print("Enter value for arg 2: ");
-		String s2 = in.nextLine();
-		System.out.print("Enter value for arg 3: ");
-		String s3 = in.nextLine();
-		//
+		Scanner scan = new Scanner(System.in);
+		System.out.print("State the first person's name: ");
+		String name1 = scan.nextLine();
+		System.out.print("State the second person's name: ");
+		String name2 = scan.nextLine();
+		System.out.print("State the third person's name: ");
+		String name3 = scan.nextLine();
+		System.out.print("State the fourth person's name: ");
+		String name4 = scan.nextLine();
+		System.out.print("Hello " + name1 + ", " + name2 + ", " + name3 + ", and " + name4 + "!");
+
 		// Say hello to the names in s0 through s3.
 		//
 
